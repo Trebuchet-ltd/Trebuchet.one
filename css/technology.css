@@ -1,0 +1,77 @@
+.tech {
+    background-color: black;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    padding: 5% 6%;
+}
+.tech-head {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.tech-head h3 {
+    font-size: 25px;
+    margin-bottom: 30px;
+    color:white;
+}
+.tech-head h1 {
+    font-size: 60px;
+}
+.tech-head p {
+    color: gray;
+}
+
+.tech-boxes {
+    display: flex;
+}
+.tech-box {
+    cursor: pointer;
+    margin: 0 30px;
+    padding: 30px 70px;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    border-radius: 5px;
+    background-color:black;
+    border: 2px solid green;
+    line-height: 30px;
+    font-size: 20px;
+    width: 100%;
+}
+.tech-box:hover
+{
+    background-color:black;
+    color:green;
+    border: 2px solid white;
+}
+.tech-quote h3 {
+    color: green;
+    text-align: center;
+    padding: 50px 10px;
+}
+
+
+/* Tablets */
+@media all and (max-width: 1025px) {
+    /*  */
+}
+
+
+
+/* Smartphones */
+@media all and (max-width: 700px) {
+    .tech {
+        margin: 0;
+    }
+    .tech-boxes
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 5%;
+    }
+    .tech-box {
+        padding: 30px 10px;
+    }
+}

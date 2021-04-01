@@ -1,0 +1,54 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5% 0%;
+}
+.middle-content {
+    text-align: center;
+}
+.middle-content span {
+    color: #4a4a48;
+}
+.footer-tabs {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    padding: 160px 0 320px 0;
+}
+.footer-tab-items {
+    display: flex;
+    flex-direction: column;
+}
+.footer-tab-items a {
+    cursor: pointer;
+    color: grey;
+    text-decoration: none;
+    padding: 8px 0;
+}
+.footer-tab-items a:hover
+{
+    color: white;
+}
+
+
+/* Smartphones */
+@media all and (max-width: 670px) {
+    /*  */
+
+    .footer-tabs
+    {
+        font-size: small;
+    }
+}
+
+
+
+/* Tablets */
+@media all and (max-width: 1000px) {
+    .footer-tabs {
+        padding: 100px 0 200px 0;
+    }
+}

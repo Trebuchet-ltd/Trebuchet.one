@@ -1,0 +1,76 @@
+.service {
+    padding: 5% 6%;
+}
+.service-head h2 {
+    font-size: 36px;
+}
+.service-head p {
+    font-size: 25px;
+}
+.service-cards {
+    display: flex;
+    justify-content: space-between;
+}
+.service-card {
+    width: 18%;
+    padding: 20px 20px;
+    height: 200px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 2px solid #e4e4e4;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    transition: all 0.3s ease-out;
+}
+.service-card:hover {
+    border: 2px solid green;
+    background-color: black;
+    color: white;
+}
+.service-card-icon {
+    font-size: 30px;
+    font-weight: 900;
+    border-radius: 100px;
+    height: 75px;
+    width: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(30, 30, 30);
+    color: rgb(0, 160, 0);
+}
+
+
+
+/* Tablets */
+@media all and (max-width: 1025px) {
+    .service-card {
+        height: 250px;
+    }
+}
+
+
+
+/* Smartphones */
+@media all and (max-width: 700px) {
+    .service-head p {
+        font-size: 20px;
+    }
+    .service-cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .service-card {
+        width: 80%;
+        margin: 10px 0;
+    }
+    .service-card-icon {
+        height: 60px;
+        width: 60px;
+        font-size: 24px;
+    }
+}

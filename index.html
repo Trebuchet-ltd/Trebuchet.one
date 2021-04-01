@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="We develops interactive solutions for futuristic platforms" />
+    <meta name="theme-color" content="#000000" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Round">
+    <link rel="icon" href="./img/logo_dark.png" />
+    <link href="./css/index.css" rel="stylesheet" />
+    <link href="./css/header.css" rel="stylesheet" />
+    <link href="./css/home.css" rel="stylesheet" />
+    <link href="./css/technology.css" rel="stylesheet" />
+    <link href="./css/service.css" rel="stylesheet" />
+    <link href="./css/contact.css" rel="stylesheet" />
+    <title>Trebuchet</title>
+</head>
+<body>
+
+    <!-- Header -->
+    <div class="t-header">
+
+        <div class="t-logo">
+            <img src="./img/logo_white.png" alt="logo"/>
+            <p>Trebuchet</p>
+        </div>
+    
+        <div class="navbar">
+            <a href="#about"><span class="navbar-item" id="nav-about">ABOUT US</span></a>
+            <a href="#tech"><span class="navbar-item" id="nav-tech">TECHNOLOGY</span></a>
+            <a href="#services"><span class="navbar-item" id="nav-services">SERVICES</span></a>
+            <a href="#contact"><span class="navbar-item" id="nav-contact">CONTACT</span></a>
+        </div>
+    
+        <div class="nav-dropdown">
+            <button 
+                onclick="toggleDropDown()" 
+                class="material-icons-round nav-dropdown-btn" 
+                id="nav-dropdown-btn">menu</button>
+            <div id="nav-dropdown-id" class="hidden-nav-dropdown-content">
+                <a href="#about"><span class="navbar-item" id="nav-about">ABOUT US</span></a>
+                <a href="#tech"><span class="navbar-item" id="nav-tech">TECHNOLOGY</span></a>
+                <a href="#services"><span class="navbar-item" id="nav-services">SERVICES</span></a>
+                <a href="#contact"><span class="navbar-item" id="nav-contact">CONTACT</span></a>
+            </div>
+        </div>
+        
+    </div> 
+    <!-- Header ends here -->
+
+
+    <div class="t-body"><!-- non header section  -->
+
+        <!-- About -->
+        <div class="t-home" id="about">
+
+            <div class="top-wrapper">
+                <h1>Trebuchet</h1>
+                <h3>We are a technology company that develops interactive solutions for futuristic platforms.</h3>
+            </div>
+
+            <div class="ideas">
+                <h1>Our Aim</h1>
+                <div class="idea-box">
+                    <div class="idea-card">
+                        <h3>Provide a Real world experience</h3>
+                    </div>
+                    <div class="idea-card">
+                        <h3>A seamless user experience in the web.</h3>
+                    </div>
+                    <div class="idea-card">
+                        <h3>Make it feasible for all devices</h3>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- About ends here -->
+
+
+
+        <!-- Technology -->
+        <div class="tech" id="tech">
+
+            <div class="tech-head">
+                <h3>Try clothing on yourself, in real time ?</h3>
+                <h1>We made it possible !</h1>
+                <p>with Augmented Reality</p>
+            </div>
+
+            <div class="tech-boxes">
+                <div class="tech-box tech-box-1">
+                    3D mesh of foot is created using in-house SAR-V algorithm
+                </div>
+                <div class="tech-box tech-box-2">
+                    SAR-V is computationally inexpensive and can run on low end devices
+                </div>
+                <div class="tech-box tech-box-3">
+                    Multi Cam support for enhanced kiosk experience
+                </div>
+            </div>
+            <br>
+
+            <div class="tech-quote">
+                <h3>
+                    “Simply put, we believe augmented reality is going to change the way 
+                    we use technology forever. We’re already seeing things that will transform 
+                    the way you work, play, connect and learn.” —Tim Cook
+                </h3>
+                <br><br>
+            </div>
+
+        </div>
+        <!-- Technology ends here -->
+
+
+
+        <!-- Services -->
+        <div class="service" id="services">
+
+            <div class="service-head">
+                <h2>Services</h2>
+                <br>
+                <p>
+                    We allow customers to see a three-dimensional image of the product 
+                    in their environment, evaluate its appearance in full size, 
+                    try on how this object will look in the room, and more.
+                </p><br>
+            </div>
+
+            <div class="service-cards">
+                <div class="service-card">
+                    <div class="service-card-icon service-card-icon-1">&lt; /&gt;</div>
+                    <h3>Interactive Conferences</h3>
+                    <p>We help you connect virtually with your business and all kinds of conferences.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-card-icon service-card-icon-2">{&nbsp;}</div>
+                    <h3>AR apps</h3>
+                    <p>We make AR applications suitable for both android and ios platforms to have a real world experience.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-card-icon service-card-icon-4">&lt; /&gt;</div>
+                    <h3>Web AR</h3>
+                    <p>We make real-time AR, web applications portable for all kinds of devices.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-card-icon service-card-icon-3">{&nbsp;}</div>
+                    <h3>Kiosk based AR</h3>
+                    <p>We help make interactive shopping possible in realtime with AR.</p>
+                </div>
+            </div>
+        
+        </div>
+        <!-- Services ends here -->
+
+
+
+        <!-- Contact -->
+        <div class="contact" id="contact">  
+        
+            <div class="middle-content"> 
+                <h2><span>Ready to revolutionize your practices with </span> pioneering technology?</h2>
+            </div>
+
+            <div class="footer-tabs">
+                <div class="footer-tab">
+                    <h5>Info</h5>
+                    <div class="footer-tab-items">
+                        <a href="#about">HOME</a>
+                        <a href="#tech">TECHNOLOGY</a>
+                        <a href="#services">SERVICES</a>
+                    </div>
+                </div>
+                <div class="footer-tab">
+                    <h5>Connect</h5>
+                    <div class="footer-tab-items">
+                        <a href="https://twitter.com/Trebuch30781175">TWITTER</a>
+                        <a href="#">LINKEDLN</a>
+                        <a href="mailto:sales@trebuchet.one">EMAIL</a>
+                    </div>
+                </div>
+                <div class="footer-tab">
+                    <h5>Products</h5>
+                    <div class="footer-tab-items">
+                        <a href="#">AR apps</a>
+                        <a href="#">Kiosk based AR </a>
+                        <a href="#">Web AR</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&#169; Trebuchet 2021</p><br />
+            </div>
+
+        </div>
+        <!-- Contact ends here -->
+
+    </div>
+
+
+    <script src="./js/navbar.js"></script>
+    <script src="./js/dropdown.js"></script>
+
+</body>
+</html>
