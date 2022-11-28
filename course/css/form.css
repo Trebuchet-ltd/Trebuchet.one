@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:800|Poppins:300,400,500,600,700,800|Roboto:300,400,500");
+
+.contact-title {
+    font-size: 27px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+
+  .form-contact label {
+    font-size: 14px;
+  }
+  
+ 
+  .form-contact .form-group {
+    margin-bottom: 30px;
+  }
+  
+  .form-contact .form-group .btn_1 {
+    margin-bottom: -30px;
+  }
+  
+  .form-contact .form-control {
+    border: 1px solid #f0e9ff;
+    border-radius: 5px;
+    height: 48px;
+    padding-left: 18px;
+    font-size: 13px;
+    background: transparent;
+  }
+  
+  .form-contact .form-control:focus {
+    outline: 0;
+    box-shadow: none;
+  }
+  
+  .form-contact .form-control::placeholder {
+    font-weight: 300;
+    color: #999999;
+  }
+  
+  .form-contact textarea {
+    border-radius: 12px;
+    height: 100% !important;
+  }
+
+  h2 {
+    color: #0c2e60;
+    font-family: "Poppins", sans-serif;
+}
+
+.screen {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 0 !important;
+    height: auto !important;
+}
+
+.btn_1 {
+    background-image: linear-gradient(to left, #ee390f 0%, #f9b700 51%, #ee390f 100%);
+}
+
+.btn_1 {
+    display: inline-block;
+    padding: 13.5px 45px;
+    border-radius: 50px;
+    font-size: 15px;
+    color: #fff;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    text-transform: capitalize;
+    background-size: 200% auto;
+    border: 1px solid transparent;
+    box-shadow: 0px 12px 20px 0px rgba(255, 126, 95, 0.15);
+}
+
+.btn_1:hover {
+    color: #fff !important;
+    background-position: right center;
+    box-shadow: 0px 10px 30px 0px rgba(193, 34, 10, 0.2);
+}
+
+@media (max-width: 576px) {
+
+  .top {
+      padding: 10px 30px;
+      margin-top: 0px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+  .top {
+      padding: 10px 30px;
+      margin-top: 0px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+  .top {
+      padding: 10px 30px;
+      margin-top: 0px !important;
+  }
+}
+
+.footer-area {
+  background-color: #f7f7f7;
+}
+
+.footer-area .copyright_part_text {
+  padding-top: 26px;
+  padding-bottom: 26px;
+  border-top: 1px solid #dedede;
+}
+
+.footer-area .copyright_part_text p {
+  font-size: 15px;
+}
+
+@media (max-width: 576px) {
+
+  .footer-area .copyright_part_text {
+      text-align: center;
+  }
+
+  .footer-area .copyright_part_text p {
+      font-size: 13px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .footer-area .copyright_part_text {
+      text-align: center;
+  }
+
+  .footer-area .copyright_part_text p {
+      font-size: 13px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+  .footer-area .copyright_part_text {
+      text-align: center;
+  }
+}
