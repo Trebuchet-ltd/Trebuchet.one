@@ -8,9 +8,13 @@ body {
     width:100%;
     height:100vh;
     background:#ffffff; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .thankyou-wrapper h1{
-    font:100px Arial, Helvetica, sans-serif;
+    font: Arial, Helvetica, sans-serif;
     text-align:center;
     color:#333333;
     padding:0px 10px 10px;
